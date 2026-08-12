@@ -9,9 +9,10 @@
 ## 📌 1. Entregables del Proyecto
 
 ### 🌐 Enlaces al Proyecto
+- **Aplicación Desplegada en Vivo (Vercel):** [https://proyecto-integrador-vibe-coding.vercel.app](https://proyecto-integrador-vibe-coding.vercel.app)
 - **Repositorio en GitHub:** [https://github.com/SWNT-2/ProyectoIntegradorDe-la-Idea-a-la-Realidad-con-Vibe-Coding](https://github.com/SWNT-2/ProyectoIntegradorDe-la-Idea-a-la-Realidad-con-Vibe-Coding)
 - **Documento de Bitácora:** [BITACORA.md](file:///C:/Users/Isabel/Downloads/ProyectoIntegradorDe-la-Idea-a-la-Realidad-con-Vibe-Coding/BITACORA.md)
-- **Despliegue en Vivo (Vercel/Netlify):** Importa el repositorio directamente en [Vercel](https://vercel.com) (configuración automática vía `vercel.json`).
+- **Dominio Secundario Vercel:** [https://proyecto-integrador-vibe-coding-git-main-tomaspro572.vercel.app](https://proyecto-integrador-vibe-coding-git-main-tomaspro572.vercel.app)
 
 ---
 
