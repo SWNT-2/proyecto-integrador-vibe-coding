@@ -1,0 +1,50 @@
+.app{position:relative;z-index:1;min-height:100vh;display:flex;flex-direction:column}
+/* Header */
+.header{display:flex;align-items:center;justify-content:space-between;padding:20px 40px;border-bottom:1px solid var(--glass-border);background:hsla(210,20%,8%,.7);backdrop-filter:blur(20px);position:sticky;top:0;z-index:100;flex-wrap:wrap;gap:12px}
+.logo{display:flex;align-items:center;gap:12px}
+.icon{font-size:2rem;filter:drop-shadow(0 0 12px var(--primary-glow));animation:floatIcon 4s ease-in-out infinite alternate}
+@keyframes floatIcon{0%{transform:translateY(0)}100%{transform:translateY(-4px)}}
+.name{font-size:1.4rem;font-weight:800;color:var(--text-primary);line-height:1}
+.ai{background:linear-gradient(135deg,var(--primary),var(--secondary));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.tag{font-size:.72rem;color:var(--text-muted);margin-top:3px;text-transform:uppercase;letter-spacing:.07em}
+.nav{display:flex;align-items:center;gap:24px}
+.link{font-size:.85rem;color:var(--text-secondary);text-decoration:none;transition:var(--transition-fast)}
+.link:hover{color:var(--primary-light)}
+.beta{font-size:.68rem;font-weight:700;padding:2px 8px;background:linear-gradient(135deg,var(--primary),var(--secondary));color:hsl(210,20%,6%);border-radius:100px;text-transform:uppercase;letter-spacing:.05em}
+/* Hero */
+.hero{padding:60px 40px 40px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:20px}
+.heroBadge{display:inline-flex;align-items:center;gap:6px;padding:6px 16px;background:var(--glass-bg);border:1px solid var(--glass-border);border-radius:100px;font-size:.82rem;color:var(--primary-light);backdrop-filter:blur(10px)}
+.heroTitle{font-size:clamp(2rem,5vw,3.5rem);font-weight:800;color:var(--text-primary);line-height:1.15}
+.grad{background:linear-gradient(135deg,var(--primary-light),var(--secondary));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.heroSub{font-size:1rem;color:var(--text-secondary);line-height:1.65;max-width:500px}
+.stats{display:flex;align-items:center;gap:24px;flex-wrap:wrap;justify-content:center}
+.stat{display:flex;flex-direction:column;align-items:center;gap:4px}
+.sn{font-size:1.6rem;font-weight:800;color:var(--primary-light)}
+.sl{font-size:.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.06em}
+.sdiv{width:1px;height:36px;background:var(--glass-border)}
+/* Main */
+.main{flex:1;padding:0 40px 60px}
+.grid{display:grid;grid-template-columns:1fr 340px;gap:24px;max-width:1100px;margin:0 auto;align-items:start}
+.col{display:flex;flex-direction:column;gap:24px}
+.side{display:flex;flex-direction:column;gap:16px;position:sticky;top:100px}
+/* Cards */
+.card{padding:28px;display:flex;flex-direction:column;gap:16px}
+.cardTitle{font-size:1.1rem;font-weight:700;color:var(--text-primary)}
+.cardSub{font-size:.85rem;color:var(--text-secondary);line-height:1.55}
+/* Error */
+.err{padding:14px 18px;background:hsla(0,60%,15%,.5);border:1px solid hsla(0,70%,55%,.3);border-radius:var(--radius-md);font-size:.88rem;color:hsl(0,80%,70%);display:flex;gap:10px;align-items:flex-start;animation:fadeInUp .3s ease forwards}
+/* Info panels */
+.info{padding:20px}
+.infoTitle{font-size:.88rem;font-weight:600;color:var(--text-secondary);margin-bottom:14px;text-transform:uppercase;letter-spacing:.07em}
+.steps{list-style:none;display:flex;flex-direction:column;gap:10px;padding:0}
+.steps li{display:flex;align-items:flex-start;gap:10px;font-size:.82rem;color:var(--text-secondary);line-height:1.4}
+.steps li span{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:var(--primary);color:hsl(210,20%,6%);font-size:.7rem;font-weight:700;flex-shrink:0}
+.facs{list-style:none;display:flex;flex-direction:column;gap:8px;padding:0}
+.facs li{font-size:.82rem;color:var(--text-secondary);padding:6px 8px;border-radius:var(--radius-sm);transition:var(--transition-fast)}
+.facs li:hover{background:hsla(160,20%,12%,.5);color:var(--text-primary)}
+/* Footer */
+.footer{padding:20px 40px;text-align:center;border-top:1px solid var(--glass-border);font-size:.75rem;color:var(--text-muted)}
+.fhl{color:var(--primary)}
+/* Responsive */
+@media(max-width:900px){.grid{grid-template-columns:1fr}.side{position:static}}
+@media(max-width:600px){.header{padding:16px 20px}.hero{padding:40px 20px 24px}.main{padding:0 20px 40px}.nav .link{display:none}}
