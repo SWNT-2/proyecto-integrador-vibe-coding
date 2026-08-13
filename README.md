@@ -14,7 +14,7 @@
 - **Repositorio en GitHub:** [https://github.com/SWNT-2/ProyectoIntegradorDe-la-Idea-a-la-Realidad-con-Vibe-Coding](https://github.com/SWNT-2/ProyectoIntegradorDe-la-Idea-a-la-Realidad-con-Vibe-Coding)
 - **Documento de Bitácora:** [BITACORA.md](file:///C:/Users/Isabel/Downloads/ProyectoIntegradorDe-la-Idea-a-la-Realidad-con-Vibe-Coding/BITACORA.md)
 - **Dominio Secundario Vercel:** [https://proyecto-integrador-vibe-coding-git-main-tomaspro572.vercel.app](https://proyecto-integrador-vibe-coding-git-main-tomaspro572.vercel.app)
-
+**Video Demo:** https://youtu.be/n-GTW8Zu_LE?si=yfP9OdwCIxwNxKDM
 ---
 
 ## 📄 2. Documento de Bitácora (Resumen Ejecutivo)
@@ -102,7 +102,7 @@ graph TD
 - ![alt text](Imagenes/4.png) ![alt text](Imagenes/5.png)
 
 ## Video de evidencia.
-- 
+- https://youtu.be/n-GTW8Zu_LE?si=yfP9OdwCIxwNxKDM
 ## 🚀 4. Guía para Ejecutar Localmente
 
 1. Clonar el repositorio:
