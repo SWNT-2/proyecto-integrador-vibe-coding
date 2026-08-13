@@ -94,7 +94,14 @@ graph TD
 ```
 
 ---
+## Evidencias de Funcionamiento.
+- ![alt text](Imagenes/1.png) 
+- ![alt text](Imagenes/2.png) 
+- ![alt text](Imagenes/3.png) 
+- ![alt text](Imagenes/4.png) ![alt text](Imagenes/5.png)
 
+## Video de evidencia.
+- 
 ## 🚀 4. Guía para Ejecutar Localmente
 
 1. Clonar el repositorio:
