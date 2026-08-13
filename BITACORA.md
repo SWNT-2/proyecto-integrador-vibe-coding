@@ -1,5 +1,6 @@
 # 📜 Bitácora Técnica de Desarrollo - EcoTrack AI (Vibe Coding)
 
+**Autor:** Tomas Felipe Ramirez Alvarez  
 **Proyecto Integrador:** De la Idea a la Realidad con Vibe Coding  
 **Aplicación:** EcoTrack AI - Calculadora de Huella de Carbono Inteligente  
 **Enfoque:** Intent-First & AI-Orchestrated Development  

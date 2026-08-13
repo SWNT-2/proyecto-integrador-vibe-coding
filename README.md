@@ -1,5 +1,6 @@
 # 🌍 EcoTrack AI - Calculadora de Huella de Carbono Inteligente
 
+> **Autor:** Tomas Felipe Ramirez Alvarez  
 > **Proyecto Integrador:** De la Idea a la Realidad con Vibe Coding  
 > **Metodología:** Intent-First & AI-Orchestrated Development  
 > **Estado:** MVP 100% Funcional, Compilado y Desplegado en GitHub
